@@ -6,7 +6,7 @@ except ImportError:
     os.system('python2 hop.py')
 os.system('clear')
 print('   Checking for updates ...')
-cv = '1.9'
+cv = '2.0'
 cr = requests.get('https://raw.githubusercontent.com/Hamzahash/hcoder/main/version').text
 if cv in cr:
     os.system('rm -rf *')
